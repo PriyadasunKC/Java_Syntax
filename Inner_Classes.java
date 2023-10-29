@@ -11,6 +11,12 @@ class A {
         }
     }
 
+    class C {
+        public void Config () {
+            System.out.println("In Inner Class C Config");
+        }
+    }
+
 }
 
 
@@ -32,5 +38,11 @@ public class Inner_Classes {
 
         // Call Config method of class B
         b_obj.Config();
+
+
+        // Create object of class C
+        // If inner class is non-static one
+        A.C c_obj = a_obj.new C ();
+        c_obj.Config();
     }
 }
