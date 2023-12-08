@@ -1,2 +1,7 @@
-This is sample text file for file handling.
-This is second line
+
+Hello World
+Hogwarts are in great danger
+Harry Potter is the only one who can save them
+Hello World
+Hogwarts are in great danger
+Harry Potter is the only one who can save them
